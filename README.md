@@ -28,7 +28,7 @@ model = AutoModelForTokenClassification.from_pretrained("path/to/your/model")
 tokenizer = AutoTokenizer.from_pretrained("path/to/your/config.json")
 
 # Example usage
-text = "Chirag works at EvoAstra in Bangalore."
+text = "[Name] works at [Org] in [Loc]."
 inputs = tokenizer(text, return_tensors="pt")
 outputs = model(**inputs)
 ```
