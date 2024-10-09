@@ -39,10 +39,12 @@ Fine-Tune the Model: Run the provided script to fine-tune the BERT model with yo
 Load the Model: Use the provided examples to load the fine-tuned model and make predictions.
 Analyze Output: The model will output the predicted entities for given input text.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Hugging Face: For providing the Transformers library.
-PyTorch: For being a powerful framework for deep learning.
-hugging face/conll2003: For providing the dataset used for fine-tuning.
+## Acknowledgments
+##### Hugging Face: For providing the Transformers library.
+
+##### PyTorch: For being a powerful framework for deep learning.
+
+##### hugging face/conll2003 : For providing the dataset used for fine-tuning.
